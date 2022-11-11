@@ -10,7 +10,7 @@ My motivation to complete this project was to not give up even when I got stuck.
 
 Click on the "Generate Password" button to begin generating a randomized password.
 
-![webpage screenshot](assets/03-javascript-homework-demo.png)
+![webpage screenshot](assets/challenge-3-screenshot.png)
 
 https://allstarcoding777.github.io/challenge-3/
 
