@@ -8,7 +8,7 @@ My motivation to complete this project was to not give up even when I got stuck.
 
 ## Usage
 
-Click on the "Generate Password" button to begin generating randomized password.
+Click on the "Generate Password" button to begin generating a randomized password.
 
 ![webpage screenshot](Assets/03-javascript-homework-demo.png)
 
