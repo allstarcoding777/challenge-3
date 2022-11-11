@@ -31,9 +31,6 @@ function generatePassword() {
   }
 
   else {
-    var generatedPassword = "";
-    var passwordLength
-  //Add confirm prompts & push characters to empty array
     var lowercase = window.confirm("Would you like to use lowercase letters?");
     if (lowercase) {
       generatedPassword += key_strings.lowercase;
@@ -58,6 +55,7 @@ function generatePassword() {
     for (var i = 0; i < passwordLength; i++) {
       password += generatedPassword[Math.floor(Math.random() * generatedPassword.passwordLength)]
     }
+    console.log(generatedPassword)
     return generatedPassword;
   }
   
