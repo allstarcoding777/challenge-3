@@ -50,13 +50,14 @@ function generatePassword() {
     if (number) {
       generatedPassword += key_strings.number;
     };
-
+let password = "";
     //Loop through the array based on the passwordLength
     for (var i = 0; i < passwordLength; i++) {
-      password += generatedPassword[Math.floor(Math.random() * generatedPassword.passwordLength)]
+      console.log(Math.floor(Math.random() * generatedPassword.length))
+      password += generatedPassword[Math.floor(Math.random() * generatedPassword.length)]
     }
     console.log(generatedPassword)
-    return generatedPassword;
+    return password;
   }
   
 }
